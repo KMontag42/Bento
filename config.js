@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Kyle',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -36,10 +36,10 @@ const CONFIG = {
 	defaultLongitude: '-122.419',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Notion',
+			icon: 'notion',
+			link: 'https://notion.so',
 		},
 		{
 			id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -112,7 +112,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://smile.amazon.com/',
 		},
 		{
 			id: '5',
@@ -155,29 +155,7 @@ const CONFIG = {
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
-		},
+		}
 	],
 
 	// Second Links Container
@@ -203,28 +181,6 @@ const CONFIG = {
 					link: 'https://www.pocket.com',
 				},
 			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
-				},
-			],
-		},
+		}
 	],
 };
